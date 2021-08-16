@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body onload=loadIndivGroup()>
+		<div class="yes-access base">
+			<div class="box">
+				<div id="topbar">
+					<p class="welcome">welcome, {{username}}! | score</p>
+					<img class="welcome-logo" src="https://img.icons8.com/cotton/100/000000/orange--v2.png">
+					<button class="home-b" onclick="location.href='/~/Satsuma'" >home</button>
+				</div>
+				<h3>Civics</h3>
+				
+				<h3 id="task-tab">Tasks</h3>
+				<div id="tasks" class="tab">
+				<!--	<div class="block">-->
+				
+					
+					<!--<h3 id="add_task_b">+</h3>-->
+					
+					<!--
+					<div id="add-task">
+						<form id="task-form">
+							<label>Title:</label>
+							<input type="text" placeholder="Task name" id="taskName" required>
+							<label>Due date:</label>
+							<input type="text" placeholder="Due date" id="taskDate" required>
+							<input type="submit" value="Add Task">
+							<button id="close"><a href="#close">Close</a></button>
+						</form>
+					</div>
+					
+					<div>
+						<table id="task-table">
+							<tr>
+								<td class="aTask"></td>
+							</tr>
+						</table>
+					</div>
+					-->
+					<div class="a-task">Civic Model</div>
+					<div class="a-task">Activism</div>
+				</div>
+		
+				<h3 id="leaderboard-tab">Leaderboard</h3>
+				<div id="leaderboard">
+					<div class="a-task">#1</div>
+					<div class="a-task">#2</div>
+					<div class="a-task" id="user">#7</div>
+				</div>
+			</div>
+		</div>
+		<script src="taskadder.js"></script>
+		<script src="indivgroup.js"></script>
+	</body>
+</html>

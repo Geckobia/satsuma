@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.base {
+	display: block;
+	position: fixed;
+	width: 500px;
+	height: 550px;
+	background-color: #FEB26C;
+	font-family: Inter, sans-serif;
+}
+
+.box {
+	position: relative;
+	display: block;
+	background-color: white;
+	margin: 25px; /*Might wanna find better way to center it later*/
+	width: 448px;
+	height: 492px;
+	border: #2c2c2c 1.5px solid;
+	border-radius: 20px;
+}
+
+h1 {
+	 text-align: center;
+     position: relative;
+     top: 257px;
+     -webkit-text-stroke-width: 1.5px;
+     -webkit-text-stroke-color: #2c2c2c;
+     color: #FEB26C;
+     font-weight: 700;
+     font-size: 68px;
+     font-family: Inter, sans-serif;	
+}
+
+h6 {
+     text-align: center;
+     position: relative;
+     top: 257px;
+     /*-webkit-text-stroke-width: 1.5px;*/
+     -webkit-text-stroke-color: #2c2c2c;
+     -webkit-text-fill-color: #FEB26C; /*why isn't this working :(*/
+     color: #FEB26C;
+     font-weight: 700;
+     font-size: 68px;
+     font-family: Inter, sans-serif;
+	 text-shadow: -2px -2px 0 #2c2c2c, 2px -2px 0 #2c2c2c, -2px 2px 0 #2c2c2c, 2px 2px 0 #2c2c2c;
+}
+
+.landing-buttons{
+	 position: absolute;
+	 border: #2c2c2c 1.5px solid;
+     border-radius: 8px;
+     padding: 4px;
+     min-width: 200px;
+     text-decoration: none;
+     text-align: center;
+     margin: auto;
+     left: 50%;
+     display:block;
+	 transform: translate(-50%, -50%);
+	 color: #2c2c2c;
+	 background: #FFDBBA;
+	 transition: 0.3s;
+}
+.landing-buttons:hover{
+	background: #ffe5ce;
+}
+.landing-logo {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	top: 190px;
+	transform: translate(-50%, -50%);
+}
+#signup-b{
+	top: 420px;
+}
+#login-b{
+	top: 375px;
+}
+
+/*For main screens*/
+
+.smalltext {
+	font-size: 18px;
+}
+
+h2 {
+	 text-align: center;
+     position: relative;
+     top: 135px;
+     -webkit-text-stroke-width: 1.5px;
+     -webkit-text-stroke-color: #2c2c2c;
+     color: #FEB26C;
+     font-weight: 700;
+     font-size: 45px;
+     font-family: Inter, sans-serif;	
+}
+.back-b{
+	 position: absolute;
+	 border: #2c2c2c 1.25px solid;
+     border-radius: 4px;
+     padding: 5px 10px;
+     min-width: 50px;
+     text-decoration: none;
+     text-align: center;
+     margin: auto;
+     top: 412px;
+     left: 60px;
+     display:block;
+     background: white;
+     font-family: Inter, sans-serif;
+     font-size: 15px;
+     transition: 0.3s;
+}
+.back-b:hover{
+	background:rgba(0,0,0,0.05);
+}
+.submit-b{
+	 position: absolute;
+	 border: #2c2c2c 1.25px solid;
+     border-radius: 4px;
+     padding: 5px 10px;
+     min-width: 50px;
+     text-decoration: none;
+     text-align: center;
+     margin: auto;
+     top: 412px;
+     right: 60px;
+     display:block;
+     background: #FFDBBA;
+     font-family: Inter, sans-serif;
+     font-size: 15px;
+     transition: 0.3s;
+}
+.submit-b:hover{
+	background: #ffe5ce;
+}
+.accnt-input{
+	border: #b2b2b2 1.25px solid;
+	font-family: Inter, sans-serif;
+	border-radius: 4px;
+	padding: 5px 10px;
+	height: 14px;
+	width: 305px;
+	display: block;
+	margin: 10px auto;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.accnt-label{
+	position: absolute;
+	left: 60px;
+	transform: translate(0, -140%);
+}
+
+#login-username{
+	position: absolute;
+	top: 240px;
+	width:100%;
+}
+#login-password{
+	position: absolute;
+	top: 310px;
+	width:100%;
+}
+#signup-username{
+	position: absolute;
+	top: 240px;
+	width:100%;
+}
+#signup-email{
+	position: absolute;
+	top: 300px;
+	width:100%;
+}
+#signup-password{
+	position: absolute;
+	top: 360px;
+	width:100%;
+}
+
+.accnt-logo {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	top: 92px;
+	transform: translate(-50%, -50%);
+}
+
+h3 {
+	position: relative;
+	top: 74px;
+	left: 33px;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.group {
+	display: flex;
+	position: relative;
+	width: 382px;
+	height: 56px;
+	left: 33px;
+	top: 85px;
+	background-color: white;
+	border: 1px solid #2C2C2C;
+	border-radius: 4px;
+	transition: 0.3s;
+}
+
+.group h4 {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 35px;
+	padding-left: 20px;
+}
+
+.group p {
+	font-size: 12px;
+	color: #7C7C7C;
+	line-height: 35px;
+	padding-left: 105px;
+}
+
+.group span {
+	color: #FEB26C;
+	font-size: 20px;
+	padding-left: 8px;
+}
+
+.progress-bar-holder {
+	display: flex;
+	position: absolute;
+	width: 333px;
+	height: 9px;
+	top: 35px;
+	left: 20px;
+	border-radius: 20px;
+	background-color: rgba(255,219,186, 0.3);
+}
+
+.group:hover {
+	background-color: rgb(255,219,186);
+}
+
+#smoll-bar {
+	display: flex;
+	position: absolute;
+	width: 130px;
+	height: 9px;
+	top: 35px;
+	left: 20px;
+	border-radius: 20px;
+	background-color: rgb(255,219,186);
+}
+
+#add-group {
+	display: flex;
+	position: absolute;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	color: #FEB26C;
+	z-index: 5;
+	left: 390px;
+	top: 75px;
+}
+
+.welcome {
+	display: flex;
+	position: absolute;
+	top: 30px;
+	left: 80px;
+}
+.home-b{
+	 position: absolute;
+	 border: #2c2c2c 1.25px solid;
+     border-radius: 4px;
+     padding: 5px 10px;
+     min-width: 50px;
+     text-decoration: none;
+     text-align: center;
+     margin: auto;
+     top: 412px;
+     left: 33px;
+     display:block;
+     background: white;
+     font-family: Inter, sans-serif;
+     font-size: 15px;
+}
+
+.welcome-logo {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 50px;
+	top: 30px;
+	transform: translate(-50%, -50%);
+}
+
+#leaderboard-tab {
+	position: absolute;
+	left: 200px;
+	top: 145px;
+	font-size: 22px;
+}
+
+#task-tab {
+	position: absolute;
+	top: 145px;
+	font-size: 22px;
+}
+
+.a-task {
+	display: flex;
+	position: relative;
+	width: 362px;
+	height: 56px;
+	left: 20px;
+	top: 140px;
+	margin: 10px;
+	background-color: white;
+	border: 1px solid #2C2C2C;
+	border-radius: 4px;	
+	line-height: 55px;
+	padding-left: 20px;
+}
+
+#user {
+	color: white;
+	background: #FEB26C;
+	border: 2px solid #2C2C2C;
+}

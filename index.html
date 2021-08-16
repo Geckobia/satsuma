@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body onload="getgroups();">
+		<div id="landing-page"> <!-- if not logged in -->
+			<div class="base">
+				<div class="box">
+					{{^private}}
+						<div id="no-access">
+							<h1 class="title">satsuma</h1>
+							<a id="login-b" class="landing-buttons" href="login.html">log in</a>
+							<a id="signup-b" class="landing-buttons" href="signup.html">sign up</a>
+							<img class="landing-logo" src="https://img.icons8.com/cotton/100/000000/orange--v2.png">
+						</div>
+					{{/private}}							
+					{{#private}}
+						<div class="yes-access">
+							<div id="topbar">
+								<p class="welcome">welcome, {{username}}!</p>
+								<img class="welcome-logo" src="https://img.icons8.com/cotton/100/000000/orange--v2.png">
+								<button onclick="logout()" class="home-b">log out</button>
+							</div>
+							<h3>Home</h3>
+							
+							<p onclick="addgroup(document.getElementById('group_name').value);" id="add-group">+</p>
+							<div id="home" class="scrolly">
+								<button id="group1" class="group" onclick="location.href = '/~/Satsuma/indivgroup';">
+									<h4>civics</h4>
+									<p>(finished 2/5 tasks; score 0; #7)</p>
+									<span>...</span>
+									<div class="progress-bar-holder"></div>
+									<div id="smoll-bar"></div>
+								</button>
+							</div>
+						</div>
+					{{/private}}
+				</div>
+			</div>
+		</div>	
+		
+		<script src="groupadder.js"></script>
+		<script src="log.js"></script>
+	</body> 
+</html>

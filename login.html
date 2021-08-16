@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="script.js"></script>
+	</head>
+	<body>
+		<div class="base">
+			<div class="box">
+				<img class="accnt-logo" src="https://img.icons8.com/cotton/100/000000/orange--v2.png">
+				<h2>log in</h2>
+				<!--<form action="/~/Satsuma/login" method="POST" enctype="multipart/form-data">-->
+					<div id="login-username">
+						<p class="accnt-label">username:</p>	
+						<input class="accnt-input" type="username" id="login_username" name="username" required>
+					</div>
+					<div id="login-password">
+						<p class="accnt-label">password:</p>
+						<input class="accnt-input" type="password" id="login_password" name="password" required>
+					</div>
+					<button class="submit-b" onclick='login()'>log in!</button>
+					<button class="back-b" onclick="location.href='/~/Satsuma/index'">back</button>
+				</div>
+			</div>
+		<script src="log.js"></script>
+	</body>
+</html>
