@@ -1,11 +1,7 @@
-Enter Project Name
+Satsuma
 ==================
-## What this project does
+## Productivity enchancer using competition as motivation.
 
-## Why this project is useful
+## Created using Qoom. Languages used: HTML, CSS, JavaScript.
 
-## How we built this 
-
-## Accomplishments that we are proud of 
-
-## What is next for this project
+## In collaberation with Annie and Chelsea
